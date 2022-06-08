@@ -9,12 +9,24 @@
 
 /* -------------------Preloader --------------------*/
 #preloader {
-    background: #000 url(/Images/loader.gif) no-repeat center center;
+    background: #000 url(/elso_minta_oldal/Images/loader.gif) no-repeat center center;
     background-size: 15%;
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 120;
+}
+.portfolioback img{
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    background: white;
+    border-radius: 50%;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+
 }
 
 
@@ -272,7 +284,7 @@ nav.sticky ul img {
 .kep {
     max-height: 160vh;
     width: 100%;
-    background-image: url(/Images/wilder01.jpg);
+    background-image: url(/elso_minta_oldal/Images/wilder01.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -423,6 +435,7 @@ nav.sticky ul img {
         justify-content: center;
         padding: 30px;
     }
+
 }
 
 @media screen and (min-width: 320px) {
@@ -520,7 +533,11 @@ nav.sticky ul img {
     .gallerymain h1 {
         padding-top: 100px;
     }
-
+    .portfolioback img{
+        left: 0;
+        width: 60px;
+        height: 60px;
+    }
 
     .gallery-row {
         display: grid;
@@ -780,7 +797,7 @@ form a {
     color: var(--secondary-color);
 }
 
-@media screen and (max-widt:1000px) {
+@media screen and (max-width:1000px) {
 
     .row {
         padding-top: 160px;
@@ -978,7 +995,7 @@ form a {
 .contactus {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/wielder2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/elso_minta_oldal/Images/wielder2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -1023,7 +1040,7 @@ form a {
 .reference {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/Reffooldal.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/elso_minta_oldal/Images/Reffooldal.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
