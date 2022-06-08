@@ -9,7 +9,7 @@
 
 /* -------------------Preloader --------------------*/
 #preloader {
-    background: #000 url(/elso_minta_oldal/Images/loader.gif) no-repeat center center;
+    background: #000 url(../elsomintaoldal/Images/loader.gif) no-repeat center center;
     background-size: 15%;
     height: 100vh;
     width: 100%;
@@ -284,7 +284,7 @@ nav.sticky ul img {
 .kep {
     max-height: 160vh;
     width: 100%;
-    background-image: url(/elso_minta_oldal/Images/wilder01.jpg);
+    background-image: url(../elsomintaoldal/Images/wilder01.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -995,7 +995,7 @@ form a {
 .contactus {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/elso_minta_oldal/Images/wielder2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../elsomintaoldal/Images/wielder2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -1040,7 +1040,7 @@ form a {
 .reference {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/elso_minta_oldal/Images/Reffooldal.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../elsomintaoldal/Images/Reffooldal.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
